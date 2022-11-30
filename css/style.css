@@ -2,10 +2,46 @@
 div {
     width: 300px;
     height: 100px;
-    background-color: red;
-    border: 1px solid blue;
+    background-color:rgb(3, 3, 121);
+    border: 1px solid gold;
+    color:white;
   }
   
-  div#myDiv {
-      transform: rotate(20deg);
+  #myDiv {
+      transform: rotateX(0deg);
+      transition-duration: 2s;
+  }
+
+  #myDiv:hover {
+    Transform: rotateX(180deg);
+  }
+
+  #myDiv2 {
+    transform: rotatey(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv2:hover {
+  Transform: rotatey(180deg);
+}
+
+
+#myDiv3 {
+    transform: rotatez(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv3:hover {
+  Transform: rotatez(180deg);
+}
+
+
+  a {
+    text-decoration: none;
+    background-color: lightgrey;
+    border: 2px solid gray;
+    color: darkolivegreen;
+    padding: 10px;
+    border-radius: 13px;
+    margin: 23px;
   }
